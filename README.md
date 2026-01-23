@@ -17,6 +17,7 @@ I specialize in transforming complex, fragmented datasets into clear, actionable
 * **Data Transformation**: SQL (PostgreSQL, DuckDB), dbt (Data Build Tool), Python (Pandas, NumPy).
 * **Business Intelligence**: Power BI (Expert DAX, Star-Schema Modeling, Power Query), Automated Reporting.
 * **Analytics Engineering**: Data Modeling (Fact/Dimension), Data Quality Testing, Version Control (Git/GitHub), GitHub Actions (CI).
+* **Machine Learning**: Scikit-learn (Logistic Regression, Random Forest), Feature Engineering, Model Evaluation (ROC-AUC, Recall), Leakage-safe pipelines.
 * **Methodology**: Exploratory Data Analysis (EDA), KPI Design, Retention Analysis, Customer Lifetime Value (CLV).
 
 ---
@@ -35,6 +36,13 @@ I specialize in transforming complex, fragmented datasets into clear, actionable
 * **Approach**: Implemented a layered dbt project (`staging`, `intermediate`, `marts`) using DuckDB. Focused on mastering data grains and separating technical IDs from business entities.
 * **Tech & Quality**: SQL-only transformations, dbt Core, Data Contracts (dbt tests), and GitHub Actions for automated CI/CD and documentation.
 * **Impact**: Delivered "BI-Ready" marts for Revenue and Retention. Established a Single Source of Truth where data quality is enforced by automated tests, reducing manual audit time.
+
+#### 3. [Telco Customer Churn Prediction – ML Decision Support](https://github.com/SimonNC/telco-customer-churn-prediction)
+* **Business Problem**: Customer churn represents a major financial risk in the telecom industry, where customer acquisition is significantly more expensive than retention. The objective was to proactively identify high-risk customers in order to support data-driven retention strategies.
+* **Approach**: Conducted business-oriented EDA to identify key churn drivers (contract type, tenure, support & security services). Built a leakage-safe ML pipeline with a recall-first strategy, comparing an interpretable Logistic Regression baseline with a Random Forest model. Deployed the final model into a Streamlit decision-support application allowing customer profile simulation and threshold tuning.
+* **Tech**: Python (Pandas, NumPy, Scikit-learn), Random Forest, Logistic Regression, joblib, Streamlit, Git/GitHub.
+* **Impact**: Improved churn detection with a Random Forest model reaching **0.84 ROC-AUC** and **0.73 recall** on churners. Delivered an actionable tool enabling business teams to identify at-risk customers early and simulate retention strategies based on real-time churn probabilities.
+
 
 
 
