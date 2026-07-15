@@ -1,61 +1,146 @@
 # 👋 Simon Jorite | Data Analyst
 
-Certified **Microsoft Power BI Data Analyst (PL-300)** with experience in data-driven finance, operations, and e-commerce environments. I design reliable analytics pipelines and decision-ready KPIs, enabling business and executive teams to act on consistent, trustworthy data.
+Certified **Microsoft Power BI Data Analyst (PL-300)** with 15 years of hands-on experience in finance, operations, and e-commerce. I bridge business expertise with production-grade analytics - transforming complex datasets into reliable KPIs and decision-ready dashboards.
 
 ---
 
 ### 🎯 Professional Positioning
-I specialize in transforming complex, fragmented datasets into clear, actionable KPIs and storytelling dashboards. My approach is rooted in **analytical rigor and scalability**, ensuring every insight is backed by a reliable "Single Source of Truth."
 
-* **Problem Solver**: I identify operational bottlenecks, such as delivery delay impacts on customer satisfaction.
-* **Business-Oriented**: Experience in data-driven finance, operations, and e-commerce environments, translating technical metrics into strategic recommendations.
-* **Engineering Mindset**: I treat data as a product, implementing multi-layered architectures (`staging` → `marts`) and CI/CD workflows to ensure data quality.
+**Data Analyst with a dual data & finance background.**
+
+Most data analysts come from engineering or statistics. I come from the business side - controlling, payments, fraud analytics, multi-country operations - and built my technical stack (SQL, Power BI, Python, dbt) on top of that foundation.
+
+This means I don't just deliver dashboards. I understand the decisions they need to support.
+
+- **Business-first approach**: I start from the operational question, not the tool. Every KPI I design has a clear owner and a concrete use case.
+- **Production-grade mindset**: I treat data as a product - layered architectures (`staging` to `marts`), automated testing, CI/CD, documentation.
+- **Proven impact**: ~15% fraud loss reduction across 30 countries (Betclic), ~167 hours saved through Python automation (RHPro), 64% of negative reviews traced to a single logistics bottleneck (Olist project).
 
 ---
 
 ### 🛠️ Technical Stack
-* **Data Transformation**: SQL (PostgreSQL, DuckDB), dbt (Data Build Tool), Python (Pandas, NumPy).
-* **Business Intelligence**: Power BI (Expert DAX, Star-Schema Modeling, Power Query), Automated Reporting.
-* **Analytics Engineering**: Data Modeling (Fact/Dimension), Data Quality Testing, Version Control (Git/GitHub), GitHub Actions (CI).
-* **Machine Learning**: Scikit-learn (Logistic Regression, Random Forest), Feature Engineering, Model Evaluation (ROC-AUC, Recall), Leakage-safe pipelines.
-* **Methodology**: Exploratory Data Analysis (EDA), KPI Design, Retention Analysis, Customer Lifetime Value (CLV).
+
+| Domain | Tools & Skills |
+|---|---|
+| **Data Analysis & BI** | SQL (PostgreSQL, BigQuery), Power BI (DAX, Power Query, Star-Schema), KPI design, data visualization |
+| **Analytics Engineering** | dbt (staging/marts, data contracts, CI/CD), data modeling (fact/dimension), automated documentation |
+| **Python & Automation** | Pandas, NumPy, Scikit-learn, API REST, web scraping, n8n workflow orchestration |
+| **Cloud & Infrastructure** | BigQuery, Fivetran (fundamentals), Airflow (fundamentals), Docker, Git/GitHub Actions |
+| **Business Verticals** | Finance & controlling, payments & fraud analytics, e-commerce operations, multi-country reporting |
 
 ---
 
-### 🚀 Featured Data Projects
+### 🚀 Featured Projects
 
+#### 1. [E-commerce Performance Analysis - Olist](https://github.com/SimonNC/olist-data-analysis)
 
-#### 1. [Olist E-commerce: End-to-End BI Solution](https://github.com/SimonNC/olist-data-analysis)
-* **Business Problem**: Quantify the impact of logistics performance on customer satisfaction to reduce negative reviews.
-* **Approach**: Built a full pipeline from raw CSVs to interactive dashboards. Conducted deep EDA with Python to identify the "25-30 day delivery" threshold where satisfaction collapses.
-* **Tech**: Python for cleaning/EDA, Parquet for performance, and Power BI for executive storytelling using a Star-Schema model.
-* **Impact**: Identified that deliveries exceeding 30 days generate 64% of negative reviews. Recommended proactive alerts at the 20-day mark and region-specific SLA adjustments.
+> **Key insight: 64% of negative reviews are linked to deliveries exceeding 30 days.**
 
-#### 2. [Analytics Engineering with dbt & DuckDB](https://github.com/SimonNC/olist-dbt-duckdb)
-* **Business Problem**: Fragmented raw data led to inconsistent KPI reporting. The goal was to build a modern, SQL-centric data warehouse architecture.
-* **Approach**: Implemented a layered dbt project (`staging`, `intermediate`, `marts`) using DuckDB. Focused on mastering data grains and separating technical IDs from business entities.
-* **Tech & Quality**: SQL-only transformations, dbt Core, Data Contracts (dbt tests), and GitHub Actions for automated CI/CD and documentation.
-* **Impact**: Delivered "BI-Ready" marts for Revenue and Retention. Established a Single Source of Truth where data quality is enforced by automated tests, reducing manual audit time.
+<p align="center">
+  <a href="https://github.com/SimonNC/olist-data-analysis">
+    <img src="https://github.com/SimonNC/olist-data-analysis/raw/main/screenshots/reviews_dashboard.jpg" alt="Olist Reviews Dashboard - Power BI" width="720"/>
+  </a>
+</p>
 
-#### 3. [Telco Customer Churn Prediction – ML Decision Support](https://github.com/SimonNC/telco-customer-churn-prediction)
-* **Business Problem**: Customer churn represents a major financial risk in the telecom industry, where customer acquisition is significantly more expensive than retention. The objective was to proactively identify high-risk customers in order to support data-driven retention strategies.
-* **Approach**: Conducted business-oriented EDA to identify key churn drivers (contract type, tenure, support & security services). Built a leakage-safe ML pipeline with a recall-first strategy, comparing an interpretable Logistic Regression baseline with a Random Forest model. Deployed the final model into a Streamlit decision-support application allowing customer profile simulation and threshold tuning.
-* **Tech**: Python (Pandas, NumPy, Scikit-learn), Random Forest, Logistic Regression, joblib, Streamlit, Git/GitHub.
-* **Impact**: Improved churn detection with a Random Forest model reaching **0.84 ROC-AUC** and **0.73 recall** on churners. Delivered an actionable tool enabling business teams to identify at-risk customers early and simulate retention strategies based on real-time churn probabilities.
+- **Context**: Large-scale e-commerce dataset with no clear view of what drives customer satisfaction.
+- **What I did**: Built a reproducible Python pipeline (cleaning, feature engineering, quality checks), then designed a Power BI Star-Schema model to surface logistics KPIs.
+- **Tech**: Python (Pandas), SQL, Power BI (DAX, Power Query).
+- **Impact**: Identified the 30-day delivery threshold as the dominant satisfaction driver. Delivered actionable KPIs for logistics prioritization.
 
+<details>
+<summary>📊 More dashboards from this project</summary>
+<br/>
+<p align="center">
+  <img src="https://github.com/SimonNC/olist-data-analysis/raw/main/screenshots/sales_dashboard.jpg" alt="Olist Sales Dashboard" width="680"/>
+</p>
+<p align="center"><em>Sales Performance Dashboard - Revenue trends, top categories & regions</em></p>
+<br/>
+<p align="center">
+  <img src="https://github.com/SimonNC/olist-data-analysis/raw/main/screenshots/delivery_dashboard.jpg" alt="Olist Delivery Dashboard" width="680"/>
+</p>
+<p align="center"><em>Delivery & Logistics Dashboard - SLA distribution & on-time rate</em></p>
+<br/>
+<p align="center">
+  <img src="https://github.com/SimonNC/olist-data-analysis/raw/main/screenshots/data_model.jpg" alt="Olist Data Model" width="680"/>
+</p>
+<p align="center"><em>Star-Schema Data Model - Power BI</em></p>
+</details>
 
+---
 
+#### 2. [Analytics Engineering Pipeline - dbt](https://github.com/SimonNC/olist-dbt-duckdb)
+
+> **12 dbt models with data contracts and automated CI/CD.**
+
+```
+Raw Data  ──►  Staging  ──►  Intermediate  ──►  Marts (BI-Ready)
+                                                  ├── Revenue
+                                                  └── Retention
+                 dbt tests as data contracts
+                 GitHub Actions CI/CD at every commit
+```
+
+- **Context**: Fragmented raw data leading to inconsistent KPI reporting. Goal: build a reliable, layered data warehouse architecture.
+- **What I did**: Designed a multi-layer dbt project (`staging`, `intermediate`, `marts`) with controlled grains. Implemented dbt tests as data contracts and GitHub Actions for automated CI/CD and documentation.
+- **Tech**: SQL, dbt Core, GitHub Actions. Built with DuckDB for local development; architecture designed to port to cloud warehouses (BigQuery, Snowflake).
+- **Impact**: Delivered BI-ready marts for Revenue and Retention analysis. Established a Single Source of Truth with automated quality enforcement.
+
+---
+
+#### 3. [Customer Churn Prediction - Telco](https://github.com/SimonNC/telco-customer-churn-prediction)
+
+> **ML decision-support tool: 0.84 ROC-AUC, 0.73 recall on churners.**
+
+```
+ 7,043 customers
+      │
+ Business-oriented EDA ──► Key churn drivers identified
+      │
+ Leakage-safe ML pipeline (recall-first)
+      │
+ Streamlit app ──► Simulate retention strategies in real time
+```
+
+- **Context**: Customer churn as a major financial risk in telecom - acquisition costs far exceed retention costs.
+- **What I did**: Conducted business-oriented EDA on 7,043 customers to identify key churn drivers. Built a leakage-safe ML pipeline with a recall-first strategy. Deployed a Streamlit app for customer profile simulation and threshold tuning.
+- **Tech**: Python (Pandas, Scikit-learn), Random Forest, Logistic Regression, Streamlit, Git/GitHub.
+- **Impact**: Actionable tool enabling business teams to identify at-risk customers early and simulate retention strategies based on real-time churn probabilities.
 
 ---
 
 ### 📜 Certifications
-* **Microsoft Certified**: Power BI Data Analyst Associate (PL-300)
-* **Data Analytics Bootcamp**: Le Wagon (RNCP Level 6 / Bachelor's equivalent)
-* **AWS Certified**: Solutions Architect – Associate (*In Progress*)
+
+<p>
+  <a href="https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302">
+    <img src="https://github.com/SimonNC/SimonNC/raw/main/assets/pl300_badge.png" alt="Microsoft Certified - Power BI Data Analyst Associate" width="100" align="left"/>
+  </a>
+</p>
+
+**[Microsoft PL-300 - Power BI Data Analyst Associate](https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302)** (2025)
+Official certification - [Verify credential](https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302)
+
+<br clear="left"/>
+
+| Certification | Status |
+|---|---|
+| Le Wagon - Data Analytics Bootcamp (RNCP Level 6) | Certified (2025) |
+| AWS Solutions Architect - Associate | In progress |
+
+---
+
+### 🌍 Languages
+
+- **French**: Native
+- **English**: Fluent - 6+ years in English-speaking environments (Dublin, Malta)
+- **Spanish**: Conversational
 
 ---
 
 ### 📫 Contact & Opportunities
-* **LinkedIn**: [linkedin.com/in/simonjorite](https://www.linkedin.com/in/simonjorite)
-* **Email**: simon.jorite@gmail.com
-* **Location**: Lyon, France (Open to Hybrid / Remote)
+
+- **LinkedIn**: [linkedin.com/in/simonjorite](https://www.linkedin.com/in/simonjorite)
+- **Email**: simon.jorite@gmail.com
+- **Scheduling**: [Book a 30-min exchange](https://calendly.com/simon-jorite/echange-da)
+- **Location**: Lyon, France - Open to hybrid / remote
+
+🇫🇷 *Data Analyst certifie PL-300, double culture data et finance. Disponible sur Lyon et peripherie - CDI, CDD ou missions freelance.*
