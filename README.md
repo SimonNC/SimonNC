@@ -110,22 +110,11 @@ Raw Data  ──►  Staging  ──►  Intermediate  ──►  Marts (BI-Read
 
 ### 📜 Certifications
 
-<p>
-  <a href="https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302">
-    <img src="https://github.com/SimonNC/SimonNC/raw/main/assets/pl300_badge.png" alt="Microsoft Certified - Power BI Data Analyst Associate" width="100" align="left"/>
-  </a>
-</p>
-
-**[Microsoft PL-300 - Power BI Data Analyst Associate](https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302)** (2025)
-Official certification - [Verify credential](https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302)
-
-<br clear="left"/>
-
 | Certification | Status |
 |---|---|
+| [Microsoft PL-300 - Power BI Data Analyst Associate](https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302) | Certified (2025) - [Verify credential](https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302) |
 | Le Wagon - Data Analytics Bootcamp (RNCP Level 6) | Certified (2025) |
 | AWS Solutions Architect - Associate | In progress |
-
 ---
 
 ### 🌍 Languages
