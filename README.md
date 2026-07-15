@@ -1,6 +1,6 @@
 # 👋 Simon Jorite | Data Analyst
 
-Certified **Microsoft Power BI Data Analyst (PL-300)** with 15 years of hands-on experience in finance, operations, and e-commerce. I bridge business expertise with production-grade analytics - transforming complex datasets into reliable KPIs and decision-ready dashboards.
+Certified **[Microsoft Power BI Data Analyst (PL-300)](https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302)** with 15 years of hands-on experience in finance, operations, and e-commerce. I bridge business expertise with production-grade analytics - transforming complex datasets into reliable KPIs and decision-ready dashboards.
 
 ---
 
