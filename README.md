@@ -1,40 +1,41 @@
 # 👋 Simon Jorite | Data Analyst
+[🇬🇧 English version](README.en.md)
 
-Certified **[Microsoft Power BI Data Analyst (PL-300)](https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302)** with 15 years of hands-on experience in finance, operations, and e-commerce. I bridge business expertise with production-grade analytics - transforming complex datasets into reliable KPIs and decision-ready dashboards.
-
----
-
-### 🎯 Professional Positioning
-
-**Data Analyst with a dual data & finance background.**
-
-Most data analysts come from engineering or statistics. I come from the business side - controlling, payments, fraud analytics, multi-country operations - and built my technical stack (SQL, Power BI, Python, dbt) on top of that foundation.
-
-This means I don't just deliver dashboards. I understand the decisions they need to support.
-
-- **Business-first approach**: I start from the operational question, not the tool. Every KPI I design has a clear owner and a concrete use case.
-- **Production-grade mindset**: I treat data as a product - layered architectures (`staging` to `marts`), automated testing, CI/CD, documentation.
-- **Proven impact**: ~15% fraud loss reduction across 30 countries (Betclic), ~167 hours saved through Python automation (RHPro), 64% of negative reviews traced to a single logistics bottleneck (Olist project).
+Certifié **[Microsoft Power BI Data Analyst (PL-300)](https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302)**, avec 15 ans d'expérience en finance, opérations et e-commerce. Je fais le pont entre expertise métier et analytics de niveau production - je transforme des jeux de données complexes en KPI fiables et en tableaux de bord prêts pour la décision.
 
 ---
 
-### 🛠️ Technical Stack
+### 🎯 Positionnement professionnel
 
-| Domain | Tools & Skills |
+**Data Analyst avec un double profil data & finance.**
+
+La plupart des data analysts viennent de l'ingénierie ou de la statistique. Je viens du métier - contrôle de gestion, moyens de paiement, lutte anti-fraude, opérations multi-pays - et j'ai construit ma stack technique (SQL, Power BI, Python, dbt) sur cette base.
+
+Cela signifie que je ne livre pas que des dashboards. Je comprends les décisions qu'ils doivent soutenir.
+
+- **Approche orientée métier** : je pars de la question opérationnelle, pas de l'outil. Chaque KPI que je conçois a un propriétaire clair et un cas d'usage concret.
+- **Exigence de niveau production** : je traite la donnée comme un produit - architectures en couches (`staging` à `marts`), tests automatisés, CI/CD, documentation.
+- **Impact prouvé** : ~15% de réduction des pertes fraude sur 30 pays (Betclic), ~167 heures économisées grâce à l'automatisation Python (RHPro), 64% des avis négatifs rattachés à un seul goulot d'étranglement logistique (projet Olist).
+
+---
+
+### 🛠️ Stack technique
+
+| Domaine | Outils & compétences |
 |---|---|
-| **Data Analysis & BI** | SQL (PostgreSQL, BigQuery), Power BI (DAX, Power Query, Star-Schema), KPI design, data visualization |
-| **Analytics Engineering** | dbt (staging/marts, data contracts, CI/CD), data modeling (fact/dimension), automated documentation |
-| **Python & Automation** | Pandas, NumPy, Scikit-learn, API REST, web scraping, n8n workflow orchestration |
-| **Cloud & Infrastructure** | BigQuery, Fivetran (fundamentals), Airflow (fundamentals), Docker, Git/GitHub Actions |
-| **Business Verticals** | Finance & controlling, payments & fraud analytics, e-commerce operations, multi-country reporting |
+| **Data Analysis & BI** | SQL (PostgreSQL, BigQuery), Power BI (DAX, Power Query, Star-Schema), conception de KPI, data visualization |
+| **Analytics Engineering** | dbt (staging/marts, data contracts, CI/CD), modélisation (fact/dimension), documentation automatisée |
+| **Python & Automatisation** | Pandas, NumPy, Scikit-learn, API REST, web scraping, orchestration de workflows n8n |
+| **Cloud & Infrastructure** | BigQuery, Fivetran (fondamentaux), Airflow (fondamentaux), Docker, Git/GitHub Actions |
+| **Secteurs métier** | Finance & contrôle de gestion, moyens de paiement & fraude, opérations e-commerce, reporting multi-pays |
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 Projets phares
 
-#### 1. [E-commerce Performance Analysis - Olist](https://github.com/SimonNC/olist-data-analysis)
+#### 1. [Analyse de performance e-commerce - Olist](https://github.com/SimonNC/olist-data-analysis)
 
-> **Key insight: 64% of negative reviews are linked to deliveries exceeding 30 days.**
+> **Enseignement clé : 64% des avis négatifs sont liés à des livraisons dépassant 30 jours.**
 
 <p align="center">
   <a href="https://github.com/SimonNC/olist-data-analysis">
@@ -42,92 +43,94 @@ This means I don't just deliver dashboards. I understand the decisions they need
   </a>
 </p>
 
-- **Context**: Large-scale e-commerce dataset with no clear view of what drives customer satisfaction.
-- **What I did**: Built a reproducible Python pipeline (cleaning, feature engineering, quality checks), then designed a Power BI Star-Schema model to surface logistics KPIs.
-- **Tech**: Python (Pandas), SQL, Power BI (DAX, Power Query).
-- **Impact**: Identified the 30-day delivery threshold as the dominant satisfaction driver. Delivered actionable KPIs for logistics prioritization.
+- **Contexte** : jeu de données e-commerce à grande échelle, sans vision claire des facteurs de satisfaction client.
+- **Ce que j'ai fait** : construit un pipeline Python reproductible (nettoyage, feature engineering, contrôles qualité), puis conçu un modèle Power BI en Star-Schema pour faire ressortir les KPI logistiques.
+- **Tech** : Python (Pandas), SQL, Power BI (DAX, Power Query).
+- **Impact** : identifié le seuil des 30 jours de livraison comme facteur dominant de satisfaction. KPI actionnables livrés pour prioriser la logistique.
 
 <details>
-<summary>📊 More dashboards from this project</summary>
+<summary>📊 Plus de dashboards pour ce projet</summary>
 <br/>
 <p align="center">
   <img src="https://github.com/SimonNC/olist-data-analysis/raw/main/screenshots/sales_dashboard.jpg" alt="Olist Sales Dashboard" width="680"/>
 </p>
-<p align="center"><em>Sales Performance Dashboard - Revenue trends, top categories & regions</em></p>
+<p align="center"><em>Dashboard Performance Commerciale - Tendances de revenu, top catégories & régions</em></p>
 <br/>
 <p align="center">
   <img src="https://github.com/SimonNC/olist-data-analysis/raw/main/screenshots/delivery_dashboard.jpg" alt="Olist Delivery Dashboard" width="680"/>
 </p>
-<p align="center"><em>Delivery & Logistics Dashboard - SLA distribution & on-time rate</em></p>
+<p align="center"><em>Dashboard Livraison & Logistique - Distribution SLA & taux de respect des délais</em></p>
 <br/>
 <p align="center">
   <img src="https://github.com/SimonNC/olist-data-analysis/raw/main/screenshots/data_model.jpg" alt="Olist Data Model" width="680"/>
 </p>
-<p align="center"><em>Star-Schema Data Model - Power BI</em></p>
+<p align="center"><em>Modèle de données Star-Schema - Power BI</em></p>
 </details>
 
 ---
 
-#### 2. [Analytics Engineering Pipeline - dbt](https://github.com/SimonNC/olist-dbt-duckdb)
+#### 2. [Pipeline Analytics Engineering - dbt](https://github.com/SimonNC/olist-dbt-duckdb)
 
-> **12 dbt models with data contracts and automated CI/CD.**
+> **12 modèles dbt avec data contracts et CI/CD automatisée.**
 
 ```
-Raw Data  ──►  Staging  ──►  Intermediate  ──►  Marts (BI-Ready)
-                                                  ├── Revenue
-                                                  └── Retention
-                 dbt tests as data contracts
-                 GitHub Actions CI/CD at every commit
+Données brutes  ──►  Staging  ──►  Intermediate  ──►  Marts (prêts pour la BI)
+                                                  ├── Revenu
+                                                  └── Rétention
+                 Tests dbt utilisés comme data contracts
+                 CI/CD GitHub Actions à chaque commit
 ```
 
-- **Context**: Fragmented raw data leading to inconsistent KPI reporting. Goal: build a reliable, layered data warehouse architecture.
-- **What I did**: Designed a multi-layer dbt project (`staging`, `intermediate`, `marts`) with controlled grains. Implemented dbt tests as data contracts and GitHub Actions for automated CI/CD and documentation.
-- **Tech**: SQL, dbt Core, GitHub Actions. Built with DuckDB for local development; architecture designed to port to cloud warehouses (BigQuery, Snowflake).
-- **Impact**: Delivered BI-ready marts for Revenue and Retention analysis. Established a Single Source of Truth with automated quality enforcement.
+- **Contexte** : données brutes fragmentées entraînant un reporting KPI incohérent. Objectif : construire une architecture de data warehouse en couches, fiable.
+- **Ce que j'ai fait** : conçu un projet dbt multi-couches (`staging`, `intermediate`, `marts`) avec des grains maîtrisés. Mis en place des tests dbt comme data contracts et une CI/CD GitHub Actions pour l'automatisation des tests et de la documentation.
+- **Tech** : SQL, dbt Core, GitHub Actions. Construit avec DuckDB pour le développement local ; architecture pensée pour être portée vers des entrepôts cloud (BigQuery, Snowflake).
+- **Impact** : marts prêts pour la BI livrés pour l'analyse de revenu et de rétention. Source de vérité unique établie, avec contrôle qualité automatisé.
 
 ---
 
-#### 3. [Customer Churn Prediction - Telco](https://github.com/SimonNC/telco-customer-churn-prediction)
+#### 3. [Prédiction de churn client - Telco](https://github.com/SimonNC/telco-customer-churn-prediction)
 
-> **ML decision-support tool: 0.84 ROC-AUC, 0.73 recall on churners.**
+> **Outil d'aide à la décision ML : 0.84 ROC-AUC, 0.73 de recall sur les churners.**
 
 ```
- 7,043 customers
+ 7 043 clients
       │
- Business-oriented EDA ──► Key churn drivers identified
+ EDA orientée métier ──► Facteurs clés de churn identifiés
       │
- Leakage-safe ML pipeline (recall-first)
+ Pipeline ML sans fuite de données (recall-first)
       │
- Streamlit app ──► Simulate retention strategies in real time
+ Application Streamlit ──► Simulation de stratégies de rétention en temps réel
 ```
 
-- **Context**: Customer churn as a major financial risk in telecom - acquisition costs far exceed retention costs.
-- **What I did**: Conducted business-oriented EDA on 7,043 customers to identify key churn drivers. Built a leakage-safe ML pipeline with a recall-first strategy. Deployed a Streamlit app for customer profile simulation and threshold tuning.
-- **Tech**: Python (Pandas, Scikit-learn), Random Forest, Logistic Regression, Streamlit, Git/GitHub.
-- **Impact**: Actionable tool enabling business teams to identify at-risk customers early and simulate retention strategies based on real-time churn probabilities.
+- **Contexte** : le churn client est un risque financier majeur dans le secteur telco - le coût d'acquisition dépasse largement le coût de rétention.
+- **Ce que j'ai fait** : conduit une EDA orientée métier sur 7 043 clients pour identifier les facteurs clés de churn. Construit un pipeline ML sans fuite de données avec une stratégie recall-first. Déployé une application Streamlit pour simuler des profils clients et ajuster le seuil de décision.
+- **Tech** : Python (Pandas, Scikit-learn), Random Forest, Logistic Regression, Streamlit, Git/GitHub.
+- **Impact** : outil actionnable permettant aux équipes métier d'identifier tôt les clients à risque et de simuler des stratégies de rétention à partir de probabilités de churn en temps réel.
 
 ---
 
 ### 📜 Certifications
 
-| Certification | Status |
+| Certification | Statut |
 |---|---|
-| [Microsoft PL-300 - Power BI Data Analyst Associate](https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302) | Certified (2025) - [Verify credential](https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302) |
-| Le Wagon - Data Analytics Bootcamp (RNCP Level 6) | Certified (2025) |
-| AWS Solutions Architect - Associate | In progress |
+| [Microsoft PL-300 - Power BI Data Analyst Associate](https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302) | Certifié (2025) - [Vérifier le certificat](https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302) |
+| Le Wagon - Data Analytics Bootcamp (RNCP niveau 6) | Certifié (2025) |
+| AWS Solutions Architect - Associate | En cours |
 ---
 
-### 🌍 Languages
+### 🌍 Langues
 
-- **French**: Native
-- **English**: Fluent - 6+ years in English-speaking environments (Dublin, Malta)
-- **Spanish**: Conversational
+- **Français** : langue maternelle
+- **Anglais** : courant - 6+ ans en environnement anglophone (Dublin, Malte)
+- **Espagnol** : conversationnel
 
 ---
 
-### 📫 Contact & Opportunities
+### 📫 Contact & Opportunités
 
-- **LinkedIn**: [linkedin.com/in/simonjorite](https://www.linkedin.com/in/simonjorite)
-- **Email**: simon.jorite@gmail.com
-- **Scheduling**: [Book a 30-min exchange](https://calendly.com/simon-jorite/echange-da)
-- **Location**: Lyon, France - Open to hybrid / remote
+- **LinkedIn** : [linkedin.com/in/simonjorite](https://www.linkedin.com/in/simonjorite)
+- **Email** : simon.jorite@gmail.com
+- **Prise de RDV** : [Réserver un échange de 30 min](https://calendly.com/simon-jorite/echange-da)
+- **Localisation** : Lyon, France - Ouvert à un poste hybride ou en télétravail
+
+*Data Analyst certifié PL-300, double culture data et finance. Disponible sur Lyon et périphérie - CDI, CDD ou missions freelance.*
