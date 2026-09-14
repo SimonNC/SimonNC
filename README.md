@@ -75,10 +75,10 @@ Cela signifie que je ne livre pas que des dashboards. Je comprends les décision
 
 ```
 Données brutes  ──►  Staging  ──►  Intermediate  ──►  Marts (prêts pour la BI)
-                                                  ├── Revenu
-                                                  └── Rétention
-                 Tests dbt utilisés comme data contracts
-                 CI/CD GitHub Actions à chaque commit
+                                                        ├── Revenu
+                                                        └── Rétention
+                        Tests dbt utilisés comme data contracts
+                        CI/CD GitHub Actions à chaque commit
 ```
 
 - **Contexte** : données brutes fragmentées entraînant un reporting KPI incohérent. Objectif : construire une architecture de data warehouse en couches, fiable.
