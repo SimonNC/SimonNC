@@ -47,6 +47,7 @@ This means I don't just deliver dashboards. I understand the decisions they need
 - **What I did**: Built a reproducible Python pipeline (cleaning, feature engineering, quality checks), then designed a Power BI Star-Schema model to surface logistics KPIs.
 - **Tech**: Python (Pandas), SQL, Power BI (DAX, Power Query).
 - **Impact**: Identified the 30-day delivery threshold as the dominant satisfaction driver. Delivered actionable KPIs for logistics prioritization.
+- **Try it**: [Open the dashboard in Power BI](https://raw.githubusercontent.com/SimonNC/olist-data-analysis/main/exports/olist_dashboard.pbix) *(.pbix, ready to use)*
 
 <details>
 <summary>📊 More dashboards from this project</summary>

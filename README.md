@@ -47,6 +47,7 @@ Cela signifie que je ne livre pas que des dashboards. Je comprends les décision
 - **Ce que j'ai fait** : construit un pipeline Python reproductible (nettoyage, feature engineering, contrôles qualité), puis conçu un modèle Power BI en Star-Schema pour faire ressortir les KPI logistiques.
 - **Tech** : Python (Pandas), SQL, Power BI (DAX, Power Query).
 - **Impact** : identifié le seuil des 30 jours de livraison comme facteur dominant de satisfaction. KPI actionnables livrés pour prioriser la logistique.
+- **Essayer** : [Ouvrir le dashboard dans Power BI](https://raw.githubusercontent.com/SimonNC/olist-data-analysis/main/exports/olist_dashboard.pbix) *(.pbix, prêt à l'emploi)*
 
 <details>
 <summary>📊 Plus de dashboards pour ce projet</summary>
