@@ -1,5 +1,5 @@
 # 👋 Simon Jorite | Data Analyst
-[🇬🇧 English version](README.en.md)
+[🇬🇧 English version](README.en.md) · [📅 Réserver un échange](https://cal.clixius.com/simon/echange)
 
 Certifié **[Microsoft Power BI Data Analyst (PL-300)](https://learn.microsoft.com/en-us/users/simonjorite-4846/credentials/b2cc3310a92a9302)**, avec 15 ans d'expérience en finance, opérations et e-commerce. Je fais le pont entre expertise métier et analytics de niveau production - je transforme des jeux de données complexes en KPI fiables et en tableaux de bord prêts pour la décision.
 
@@ -131,7 +131,7 @@ Données brutes  ──►  Staging  ──►  Intermediate  ──►  Marts (
 
 - **LinkedIn** : [linkedin.com/in/simonjorite](https://www.linkedin.com/in/simonjorite)
 - **Email** : simon.jorite@gmail.com
-- **Prise de RDV** : [Réserver un échange de 30 min](https://calendly.com/simon-jorite/echange-da)
+- **Prise de RDV** : [Réserver un échange de 30 min](https://cal.clixius.com/simon/echange)
 - **Localisation** : Lyon, France - Ouvert à un poste hybride ou en télétravail
 
 *Data Analyst certifié PL-300, double culture data et finance. Disponible sur Lyon et périphérie - CDI, CDD ou missions freelance.*
