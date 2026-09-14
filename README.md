@@ -131,5 +131,3 @@ Raw Data  ──►  Staging  ──►  Intermediate  ──►  Marts (BI-Read
 - **Email**: simon.jorite@gmail.com
 - **Scheduling**: [Book a 30-min exchange](https://calendly.com/simon-jorite/echange-da)
 - **Location**: Lyon, France - Open to hybrid / remote
-
-🇫🇷 *Data Analyst certifie PL-300, double culture data et finance. Disponible sur Lyon et peripherie - CDI, CDD ou missions freelance.*
